@@ -1,0 +1,43 @@
+body{
+    text-align: right;
+ background-image: url("cowboy-background-filo.jpg") ;
+    background-repeat: no-repeat;
+   background-size: cover;
+    padding-right: 75px;
+    color: white;
+;
+}
+th:hover {
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 30%;
+    opacity: 30;
+    transition: .2s ease;
+    background-color: #008CBA;
+    display: block;
+
+}
+
+
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "MS UI Gothic" ;
+}
+table {
+    align-content: flex-start;
+    outline-style: solid;
+    color: white;
+
+}
+#guess {
+    margin-bottom: 7px;
+}
+
+#letterBank {
+    display: block;
+}

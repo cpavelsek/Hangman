@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link href="hangman.css" rel="stylesheet" type="text/css" />
+
+    <title>Hangman</title>
+</head>
+
+<body>
+<h1> Welcome To Hangman!</h1>
+
+
+
+
+<button> Generate a word! </button>
+<br>
+Guess a letter!
+
+<br>
+<table id="letterBank" align="right">
+    <tr>
+    <th id="a" class="letters" ><a href="A"></a>A</th>
+    <th id="b" class="letters" >B</th>
+    <th id="c" class="letters" >C</th>
+    <th id="d" class="letters" >D</th>
+    <th id="e" class="letters">E</th>
+    <th id="f" class="letters" >F</th>
+    <th id="g" class="letters" >G</th>
+    <th id="h" class="letters" >H</th>
+    <th id="i" class="letters">I</th>
+    <th id="j" class="letters" >J</th>
+    <th id="k" class="letters" >K</th>
+    <th id="l" class="letters" >L</th>
+    <th id="m" class="letters" >M</th>
+    </tr>
+    <tr>
+    <th id="n" class="letters" >N</th>
+    <th id="o" class="letters" >O</th>
+    <th id="p" class="letters">P</th>
+    <th id="q" class="letters">Q</th>
+    <th id="r" class="letters">R</th>
+    <th id="s" class="letters">S</th>
+    <th id="t" class="letters" >T</th>
+    <th id="u" class="letters" >U</th>
+    <th id="v" class="letters" >V</th>
+    <th id="w" class="letters">W</th>
+    <th id="x" class="letters">X</th>
+    <th id="y" class="letters">Y</th>
+    <th id="z" class="letters">Z</th>
+    </tr>
+</table>
+<br/>
+<div id="break"> <br/></div>
+<p></p>
+<br>
+<div id="result"> </div>
+<br>
+<button id="restart"> Restart</button>
+
+<div id="hangman">
+    <div id="step1" hidden><img src="5.jpg" height="350" width="200"/></div>
+    <div id="step2" hidden><img src="6.jpg" height="350" width="200"/></div>
+    <div id="step3" hidden><img src="7.jpg" height="350" width="200"/></div>
+    <div id="step4" hidden><img src="8.jpg" height="350" width="200"/></div>
+    <div id="step5" hidden><img src="9.jpg" height="350" width="200"/></div>
+    <div id="step6" hidden><img src="10.jpg" height="350" width="200"/></div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="hangman.js"></script>
+
+</html>
